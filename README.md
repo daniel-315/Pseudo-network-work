@@ -1,20 +1,23 @@
+# Pseudo-Network Pipeline
 
-# psedoScore.py, mRMR.py
+This project computes gene regulatory networks using mutual information and visualizes the top-ranked edges.
 
-Some distance based scores funcs are in here
+---
 
-# Evaluate.py:
-some auroc and auprc definition
+## Requirements
 
-# mRMR.py
-This script implements the divergence-based mRMR (minimum redundancy maximum relevance) algorithm for network inference. The core function MRMR2_divergence selects informative and non-redundant gene interactions by balancing mutual relevance scores and redundancy, with a sparsity-controlling regularization parameter lambda_val.
+- Python 3.10+
+- Git
+- WSL / Linux / macOS (recommended)
 
-# run_slingshot_distance_example.py: 
-this is the example code using slingshot and some distanced based score
+---
 
-# run_4new pseudo_methods_example.py:
-this is the example code uing 4 new pseudotime methods(diffmap, phate,paga,pca) and some distance based score.
+## Setup Instructions
 
+Clone the repository:
 
+```bash
+git clone https://github.com/daniel-315/Pseudo-network-work.git
+cd Pseudo-network-work
 
 
